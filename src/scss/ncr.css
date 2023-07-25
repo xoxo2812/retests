@@ -1,0 +1,64 @@
+* {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
+#hd li {
+  list-style-type: none;
+}
+
+#imgs img {
+  height: 55px;
+  margin: 10px;
+}
+
+#gnb {
+  padding: 30px;
+}
+#gnb a {
+  text-decoration-line: none;
+  color: rgb(163, 26, 222);
+}
+#gnb li {
+  padding-right: 50px;
+}
+
+#sns i {
+  font-size: 50px;
+  color: black;
+}
+
+#slide main {
+  padding: 200px;
+}
+#slide body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+#slide .swiper {
+  width: 100%;
+  height: 100%;
+}
+#slide .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #4face2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#slide .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
