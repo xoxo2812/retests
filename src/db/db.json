@@ -1,0 +1,48 @@
+{
+    "navi" :[
+        {
+            "cls" : "px-3 about",
+            "href" : "about",
+            "txt" : "브랜드소개"
+        },
+        {
+            "cls" : "px-3 pe-md-0 event",
+            "href" : "event",
+            "txt" : "구독이벤트"
+        }
+    ],
+    "catswiper" :[
+        {
+            "imgsrc" : "https://naturalcore.co.kr/web/upload/category/shop1_213_top_287138.jpg",
+            "bgcolor" : "#fbf8f7"
+        },
+        {
+            "imgsrc" : "https://naturalcore.co.kr/web/upload/category/shop1_222_top_688232.jpg",
+            "bgcolor" : "#ededed"
+        },
+        {
+            "imgsrc" : "https://naturalcore.co.kr/web/upload/category/shop1_215_top_506225.jpg",
+            "bgcolor" : "#f6a7b0"
+        }
+    ],
+    "ad" :{
+        "title" : "SNS에서 보는 밥이보약",
+        "youtubelist" : [
+                            {
+                                "youtubeid" : "tKjkoJez6eo",
+                                "start" :"",
+                                "youdomid" : "youtude1"
+                            },
+                            {
+                                "youtubeid" : "4yxGYBgA2PM",
+                                "start" :"",
+                                "youdomid" : "youtude2"
+                            },
+                            {
+                                "youtubeid" : "kuxJVwMoUZc",
+                                "start" :"351",
+                                "youdomid" : "youtude3"
+                            }
+                        ]
+}
+}

@@ -1,29 +1,31 @@
 import You from './component/Youtube'
-import Cat from './component/Cat'
 
-const Portfolio = () =>{
+
+const Portfolio = (props) =>{
     return(
       <>
       
-        <section id="about" className="vh-100 justify-content-center">
-          <Cat></Cat>
-        </section>
+        
         <section id="event" className="vh-100">
 
         </section>  
-        <section id="ad" className="vh-100 justify-content-center">
-          <h2>SNS에서 보는 밥이보약</h2>
+        <section id="ad" className="vh-100 align-items-center d-md-flex flex-column text-center">
+          <h2 className='mb-4'>{props.dbpath.title}</h2>
           <div className="container">
                  <ul className="row">
-                   <li className='col'>
-                    <You youdomid="youtude1" start="" youid="tKjkoJez6eo" ></You>
-                   </li>
-                   <li className='col'>
-                    <You youdomid="youtude2" start="" youid="4yxGYBgA2PM" ></You>
-                   </li>
-                   <li className='col'>
-                    <You youdomid="youtude3" start="351" youid="kuxJVwMoUZc" ></You>
-                   </li>
+                   {
+                    props.dbpath.youtubelist.map((v, i)=>{
+                      return(
+                        <li className='col-md-4 mb-3 mb-md-0' key={i}>
+                          <You youdomid={v.youdomid} start={v.start} youid={v.youtubeid} ></You>
+                        </li>
+                      )
+
+                    })
+                   }
+                    
+                   
+                  
                  </ul>
           </div>
        

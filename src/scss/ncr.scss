@@ -140,8 +140,43 @@
     }
 }
 #about {
-    padding-top: 88px;
+    // padding-top: 88px;
 }
 #Cat {
 
+}
+
+.youtubebox{
+    position: relative;
+    height: 0;
+    padding-top: 54%;
+    iframe{
+        position: absolute;
+        left:0;
+        top:0;
+        height:100%;
+
+    }
+
+
+    
+}
+#about{
+    .swiper-slide{
+        min-height:600px;
+        background-repeat: no-repeat;
+    }
+    .catslide0{
+        background-size: 100% auto ;
+        background-position: center;
+
+    }
+    .catslide1{
+        background-size: 100% auto ;
+        background-position: center bottom;
+    }
+    .catslide2{
+        background-size: 100% auto ;
+        background-position: center bottom;
+    }
 }

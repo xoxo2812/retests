@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import Scrollspy from 'react-scrollspy';
 
-const Hd = () => {
+const Hd = (props) => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -25,12 +25,18 @@ const Hd = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='flex-grow-0 '>
           <Scrollspy
-            items={['about', 'event']}
+            items={[props.dbpath[0].href, props.dbpath[1].href]}
             currentClassName="active"
             offset={-100}
             >
-              <li className='px-3 about'><Nav.Link href="#about">브랜드소개</Nav.Link></li>
-              <li className='px-3 pe-md-0 event'><Nav.Link href="#event">구독이벤트</Nav.Link></li>           
+                  {
+                    props.dbpath.map((v, i)=>{
+                      return(
+                        <li className={v.cls}><Nav.Link href={"#"+v.href}>{v.txt}</Nav.Link></li> 
+                      )
+
+                    })
+                   }        
           </Scrollspy>
 
         </Navbar.Collapse>
