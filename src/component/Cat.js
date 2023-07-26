@@ -25,7 +25,6 @@ const Cat = (props) =>{
                     <SwiperSlide className={`section  d-flex flex-column justify-content-center catslide${i}`}
                     style={{ backgroundImage : `url(${v.imgsrc})`, backgroundColor : `${v.bgcolor}`}}
                     >
-
                     </SwiperSlide>
                 )
 

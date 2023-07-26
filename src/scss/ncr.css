@@ -158,3 +158,13 @@
   background-size: 100% auto;
   background-position: center bottom;
 }
+#about .swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  background-color: #f46716;
+}
+
+#ad h2 {
+  font-family: "Cafe24Ssurround";
+  color: #4face2;
+}
