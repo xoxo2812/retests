@@ -140,7 +140,24 @@
     }
 }
 
-#Cat {
+#event {
+    .events {
+        justify-content: center;
+        align-items: center;
+        font-family: 'Cafe24Ssurround';
+        color: #4face2;
+    }
+    
+    .cfs {
+        width: 100%;
+        box-sizing: border-box;
+        vertical-align: middle;
+    }
+
+    .cats{
+        font-size:20px;
+        text-align: center;
+    }
 
 }
 
@@ -153,7 +170,6 @@
         left:0;
         top:0;
         height:100%;
-
     }
 
 

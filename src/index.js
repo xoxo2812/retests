@@ -18,7 +18,7 @@ root.render(
     <>
       <Hd dbpath={db.navi}></Hd>
       <Cat dbpath={db.catswiper}></Cat>
-      <Work dbpath={db.ad}></Work>
+      <Work dbpath={db}></Work>
     </>
 );
 

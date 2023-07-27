@@ -27,7 +27,6 @@ const Cat = (props) =>{
                     >
                     </SwiperSlide>
                 )
-
             })
         }
      

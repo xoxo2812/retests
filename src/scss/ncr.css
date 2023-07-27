@@ -130,6 +130,22 @@
   width: 100%;
 }
 
+#event .events {
+  justify-content: center;
+  align-items: center;
+  font-family: "Cafe24Ssurround";
+  color: #4face2;
+}
+#event .cfs {
+  width: 100%;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+#event .cats {
+  font-size: 20px;
+  text-align: center;
+}
+
 .youtubebox {
   position: relative;
   height: 0;

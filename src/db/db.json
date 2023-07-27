@@ -25,6 +25,35 @@
             "bgcolor" : "#f6a7b0"
         }
     ],
+    "catfood" : [
+        {
+            "imgsrc" : "/img/products/pro0.png",
+            "txt" : { 
+                "pronm" : "밥이보약 CAT 걱정없는 헤어볼" ,
+                "proprice" : "22400",
+                "spronm" : "전연령 헤어볼 맞춤 솔루션"
+              },
+            "bgcolor" : "#c9e39d"
+        },
+        {
+            "imgsrc" : "/img/products/pro1.png",
+            "txt" : { 
+                      "pronm" : "밥이보약 CAT 빛나는 피모" ,
+                      "proprice" : "23800",
+                      "spronm" : "전연령 빛나는 피모 맞춤 솔루션"
+                    },
+            "bgcolor" : "#775de2"
+        },
+        {
+            "imgsrc" : "/img/products/pro2.png",
+            "txt" : { 
+                "pronm" : "밥이보약 CAT NO스트레스" ,
+                "proprice" : "27800",
+                "spronm" : "전연령 NO스트레스 맞춤 솔루션"
+              },
+            "bgcolor" : "#eebd4c"
+        }
+    ],
     "ad" :{
         "title" : "SNS에서 보는 밥이보약",
         "youtubelist" : [
