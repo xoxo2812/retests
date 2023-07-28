@@ -1,4 +1,5 @@
 import React from 'react'
+import  Youtube  from './Youtube'
 
 export function Events(props) {
     return (
@@ -10,15 +11,18 @@ export function Events(props) {
                     props.dbpath.catfood.map((v, i)=>{
                       return(
                         <li className='col-md-4 p-4' key={i}>
-                          <div className='cfs p-5' style={{backgroundColor : `${v.bgcolor}`}}>
+                          <div className='cfs p-5' style={{backgroundColor : `${v.bgcolor}`, borderRadius : `15px`}}>
                             <img src={v.imgsrc} alt="" className='img-fluid col-md-8 mx-auto d-block' />
 
                           </div>
                           <div className='desicription'>
                             <strong>{v.txt.pronm}</strong>
-                            <p>{v.txt.spronm}</p>
+                            <p className='p1'>{v.txt.spronm}</p>
                             <p className='price'>{v.txt.proprice}<span>원</span></p>
 
+                         </div>
+                         <div>
+                          <Youtube youdomid={v.youtubeinfo.youdomid} start={v.youtubeinfo.start} youid={v.youtubeinfo.youtubeid} ></Youtube>
                          </div>
                         </li>
                       )

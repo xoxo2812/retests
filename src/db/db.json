@@ -33,7 +33,12 @@
                 "proprice" : "22400",
                 "spronm" : "전연령 헤어볼 맞춤 솔루션"
               },
-            "bgcolor" : "#c9e39d"
+            "bgcolor" : "#c9e39d",
+            "youtubeinfo" :  {
+                "youtubeid" : "tKjkoJez6eo",
+                "start" :"",
+                "youdomid" : "youtude1"
+            }
         },
         {
             "imgsrc" : "/img/products/pro1.png",
@@ -42,7 +47,12 @@
                       "proprice" : "23800",
                       "spronm" : "전연령 빛나는 피모 맞춤 솔루션"
                     },
-            "bgcolor" : "#775de2"
+            "bgcolor" : "#775de2",
+            "youtubeinfo" :{
+                "youtubeid" : "4yxGYBgA2PM",
+                "start" :"",
+                "youdomid" : "youtude2"
+            }
         },
         {
             "imgsrc" : "/img/products/pro2.png",
@@ -51,27 +61,13 @@
                 "proprice" : "27800",
                 "spronm" : "전연령 NO스트레스 맞춤 솔루션"
               },
-            "bgcolor" : "#eebd4c"
+            "bgcolor" : "#eebd4c",
+            "youtubeinfo" :  {
+                "youtubeid" : "kuxJVwMoUZc",
+                "start" :"351",
+                "youdomid" : "youtude3"
+            }
         }
-    ],
-    "ad" :{
-        "title" : "SNS에서 보는 밥이보약",
-        "youtubelist" : [
-                            {
-                                "youtubeid" : "tKjkoJez6eo",
-                                "start" :"",
-                                "youdomid" : "youtude1"
-                            },
-                            {
-                                "youtubeid" : "4yxGYBgA2PM",
-                                "start" :"",
-                                "youdomid" : "youtude2"
-                            },
-                            {
-                                "youtubeid" : "kuxJVwMoUZc",
-                                "start" :"351",
-                                "youdomid" : "youtude3"
-                            }
-                        ]
-}
+    ]
+  
 }

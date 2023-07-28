@@ -2,6 +2,23 @@
     font-family: 'GmarketSansMedium', serif;
     font-weight: 400;
 }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Humanbumsuk';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Humanbumsuk.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'GmarketSansMedium';
@@ -159,6 +176,29 @@
         text-align: center;
     }
 
+    .desicription {
+        strong{
+            font-family: 'Noto Sans KR';
+            font-weight: 400;
+            font-size: 20px;
+            color: #000000;
+        }
+
+        .p1{
+            font-family: 'Noto Sans KR';
+            font-size: 14px;
+            font-weight: 300;
+            color: #1c1c1c;
+        }
+
+        .price{
+            font-family: 'Roboto';
+            font-size: 20px;
+            font-weight: 300;
+            color: #333333;
+            font-weight: bold;
+        }
+    }
 }
 
 .youtubebox{
@@ -206,3 +246,4 @@
         color: #4face2;
     }
 }
+

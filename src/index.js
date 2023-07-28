@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.min.css'
 import'./scss/ncr.scss'; //scss컴포넌트 import
-import Work from './Portfolio'
+import { Events } from './component/Events'
 import Hd from './layout/Hd'
 import Cat from './component/Cat'
 
@@ -18,7 +18,7 @@ root.render(
     <>
       <Hd dbpath={db.navi}></Hd>
       <Cat dbpath={db.catswiper}></Cat>
-      <Work dbpath={db}></Work>
+      <Events dbpath={db}></Events>
     </>
 );
 
