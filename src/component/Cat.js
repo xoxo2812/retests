@@ -29,9 +29,6 @@ const Cat = (props) =>{
                 )
             })
         }
-     
-     
-
       </Swiper>
       </section>
     )

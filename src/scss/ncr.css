@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 * {
   font-family: "GmarketSansMedium", serif;
   font-weight: 400;
@@ -158,10 +160,23 @@
   text-align: center;
 }
 #event .desicription strong {
-  font-family: "TheJamsil5Bold";
+  font-family: "Noto Sans KR";
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
 }
-#event .desicription p {
-  font-family: "Humanbumsuk";
+#event .desicription .p1 {
+  font-family: "Noto Sans KR";
+  font-size: 14px;
+  font-weight: 300;
+  color: #1c1c1c;
+}
+#event .desicription .price {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 300;
+  color: #333333;
+  font-weight: bold;
 }
 
 .youtubebox {
@@ -201,4 +216,10 @@
 #ad h2 {
   font-family: "Cafe24Ssurround";
   color: #4face2;
+}
+
+.faq button {
+  border: none !important;
+  background-color: white;
+  text-align: center;
 }

@@ -68,6 +68,8 @@
                 "youdomid" : "youtude3"
             }
         }
-    ]
-  
+    ],
+    "banners" : {
+        "imgsrc" : "/img/products/banner.png"
+    }
 }

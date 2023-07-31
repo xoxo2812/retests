@@ -8,8 +8,7 @@ function Youtube(props){
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             allowfullscreen
             style={{borderRadius : `15px`}}>
-        </iframe>
-       
+        </iframe>       
     </div>  
     )
 }
