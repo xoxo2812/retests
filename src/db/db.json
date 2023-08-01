@@ -35,7 +35,7 @@
               },
             "bgcolor" : "#c9e39d",
             "youtubeinfo" :  {
-                "youtubeid" : "tKjkoJez6eo",
+                "youtubeid" : "4yxGYBgA2PM",
                 "start" :"",
                 "youdomid" : "youtude1"
             }
@@ -49,7 +49,7 @@
                     },
             "bgcolor" : "#775de2",
             "youtubeinfo" :{
-                "youtubeid" : "4yxGYBgA2PM",
+                "youtubeid" : "Qw58cCZnf2E",
                 "start" :"",
                 "youdomid" : "youtude2"
             }
@@ -63,13 +63,13 @@
               },
             "bgcolor" : "#eebd4c",
             "youtubeinfo" :  {
-                "youtubeid" : "kuxJVwMoUZc",
-                "start" :"351",
+                "youtubeid" : "tKjkoJez6eo",
+                "start" :"",
                 "youdomid" : "youtude3"
             }
         }
     ],
     "banners" : {
-        "imgsrc" : "/img/products/banner.png"
+        "imgsrc" : "/img/products/ban.jpg"
     }
 }

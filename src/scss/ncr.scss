@@ -177,6 +177,7 @@
     }
 
     .desicription {
+        padding-top: 25px;
         strong{
             font-family: 'Noto Sans KR';
             font-weight: 400;
@@ -247,8 +248,26 @@
     }
 }
 
-.faq button{
-    border: none !important;
+.faq{
+    font-family: 'Noto Sans KR';
+    justify-content : center;
     background-color: white;
-    text-align: center;
+    
+    button{
+        border: none;
+        margin : auto; 
+        display : block;
+        border-bottom: 1px solid #b2b2b2;
+        background-color: white;
+    }
+    p{
+        justify-content: center;
+        display: flex;
+        background-color: #f5f5f5;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+    }
 }
