@@ -17,10 +17,12 @@ import db from './db/db.json'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Hd dbpath={db.navi}></Hd>
       <Cat dbpath={db.catswiper}></Cat>
       <Events dbpath={db}></Events>
       <Form dbpath={db.banners}></Form>
+    </BrowserRouter>
     </>
 );
 
