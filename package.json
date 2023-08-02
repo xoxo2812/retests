@@ -28,7 +28,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://xoxo2812.github.io/0801.github.io/"
+    "homepage": "https://xoxo2812.github.io/retests/"
   },
   "eslintConfig": {
     "extends": [
